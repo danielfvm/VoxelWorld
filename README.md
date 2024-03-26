@@ -1,6 +1,6 @@
 # Voxel World
 ![image](https://github.com/danielfvm/VoxelWorld/assets/23420640/ef091050-0a01-48c2-a530-053ac0f74bda)
-[Voxel World](https://danielfvm.github.io/VoxelWorld/) is a cellular automata based Voxel game using WebGL that aims to be 3D version of the popular [Powder Toy](https://powdertoy.co.uk/) game. 
+[Voxel World](https://danielfvm.github.io/VoxelWorld/) is a cellular automata based Voxel game using WebGL that aims to be 3D sanbox version of the popular [Powder Toy](https://powdertoy.co.uk/) game. 
 
 ## How it works
 ### Rendering
