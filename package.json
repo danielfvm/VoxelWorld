@@ -1,15 +1,16 @@
 {
-  "name": "Koala",
+  "name": "VoxelWorld",
   "version": "1.0.0",
-  "description": "A parallelized programming language running on the gpu.",
+  "description": "VoxelWorld is a cellular automata based voxel game made in WebGL.",
   "main": "src/app.ts",
   "scripts": {
+    "build": "webpack",
     "serve": "npm run start | npm run watch",
     "start": "webpack-dev-server --progress",
     "watch": "webpack -w"
   },
   "keywords": [],
-  "author": "",
+  "author": "DeanCode",
   "license": "ISC",
   "devDependencies": {
     "ts-loader": "^9.4.4",
