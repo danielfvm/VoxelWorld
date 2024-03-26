@@ -11,8 +11,6 @@ export default class ResourceHandler {
     const config = require('config');
     const path = config.path || "..";
 
-    console.log("Config path: " + path);
-
     if (!ResourceHandler.has(url)) {
       switch (type) {
         case ResourceType.FILE:

@@ -116,8 +116,8 @@ window.onload = async () => {
       return;
     }
 
-    camDirDst.x -= event.movementX * 0.02;
-    camDirDst.y += event.movementY * 0.02;
+    camDirDst.x -= event.movementX * 0.01;
+    camDirDst.y += event.movementY * 0.01;
 
     if (camDirDst.y < -1.5) {
       camDirDst.y = -1.5;
