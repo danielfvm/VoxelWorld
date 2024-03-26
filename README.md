@@ -40,6 +40,17 @@ The terrain is generated with perlin noise inside the [global.glsl](/res/global.
 
 https://github.com/danielfvm/VoxelWorld/assets/23420640/cd156752-5b7e-4d2a-b352-c85a68137735
 
+## Development
+To test the game locally first clone this repository, install dependencies, run the local test server and finally open it in your browser at [http://localhost:8081/](http://localhost:8081/)
+```
+git clone https://github.com/danielfvm/VoxelWorld
+cd VoxelWorld
+npm install
+npm run serve
+```
+
+
+
 ## Useful resources
 * [WebGL Report](https://webglreport.com/?v=2) for checking GPU features
 * Raycasting based on [this](https://www.shadertoy.com/view/4dX3zl) shader
