@@ -4,7 +4,7 @@ Voxel World is a cellular automata based Voxel game using WebGL that aims to be 
 
 ## How it works
 ### Rendering
-The terrain is split into chunks and each chunk is stored as a texture. Since the minimum number of supported texture binds per draw call is 8, only 2x2 chunks are loaded at a time. The chunk data is then passed to a raymarching [shader](/res/world.fs.glsl) rendered on a quad on the screen. We can enhance performance by decreasing the size of the quad and then scaling it up to the screen size in another drawing call. This action reduces the overall image quality, thereby decreasing the number of pixels the raymarching shader needs to process. On the final render pass a [postprocessing shader effect](/res/screen.glsl) adds god rays by computing the sun's position relative to the screen and utilizing the depth buffer. Additionally it performs a custom antialising filter that softens pixels.
+The terrain is split into chunks and each chunk is stored as a texture. Since the minimum number of supported texture binds per draw call is 8, only 2x2 chunks are loaded at a time. The chunk data is then passed to a raycasting [shader](/res/world.fs.glsl) rendered on a quad on the screen. We can enhance performance by decreasing the size of the quad and then scaling it up to the screen size in another drawing call. This action reduces the overall image quality, thereby decreasing the number of pixels the raycasting shader needs to process. On the final render pass a [postprocessing shader effect](/res/screen.glsl) adds god rays by computing the sun's position relative to the screen and utilizing the depth buffer. Additionally it performs a custom antialising filter that softens pixels.
 
 ![image](https://github.com/danielfvm/VoxelWorld/assets/23420640/a19903bf-5e26-43ff-8bcd-19ac0e354872)
 
@@ -42,4 +42,4 @@ https://github.com/danielfvm/VoxelWorld/assets/23420640/cd156752-5b7e-4d2a-b352-
 
 ## Useful resources
 * [WebGL Report](https://webglreport.com/?v=2) for checking GPU features
-* Raymarching based on [this](https://www.shadertoy.com/view/4dX3zl) shader on ShaderToy
+* Raycasting based on [this](https://www.shadertoy.com/view/4dX3zl) shader
