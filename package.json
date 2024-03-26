@@ -4,7 +4,7 @@
   "description": "VoxelWorld is a cellular automata based voxel game made in WebGL.",
   "main": "src/app.ts",
   "scripts": {
-    "build": "webpack build --mode production --env path=\"VoxelWorld\"",
+    "build": "webpack build --mode production --env path=\".\"",
     "serve": "npm run start | npm run watch",
     "start": "webpack-dev-server --progress",
     "watch": "webpack -w"
