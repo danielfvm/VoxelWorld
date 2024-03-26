@@ -1,7 +1,7 @@
 # Voxel World
 ![Repository size](https://img.shields.io/github/repo-size/danielfvm/VoxelWorld?color=39d45f) 
 [![GitHub last commit](https://img.shields.io/github/last-commit/danielfvm/VoxelWorld?color=39d45f)](https://github.com/danielfvm/VoxelWorld/commits/master) 
-![License](https://img.shields.io/badge/license-MIT-39d45f) 
+![License](https://img.shields.io/badge/license-GPL-39d45f) 
 [![Stargazers](https://img.shields.io/github/stars/danielfvm/VoxelWorld?color=39d45f&logo=github)](https://github.com/danielfvm/VoxelWorld/stargazers)
 
 ![image](https://github.com/danielfvm/VoxelWorld/assets/23420640/ef091050-0a01-48c2-a530-053ac0f74bda)
