@@ -1,0 +1,7 @@
+{
+  "solid": {
+    "frequency": [
+      "noise2d:0.05:10", "noise2d:0.01:40", "noise2d:0.002:50"
+    ]
+  }
+}

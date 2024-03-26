@@ -1,0 +1,38 @@
+.floating-window {
+  position: absolute;
+  display: none;
+  border: 1px solid black;
+  border-radius: 10px;
+  background-color: white;
+  padding: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  z-index: 1000;
+  user-select: none;
+}
+
+.floating-window:hover {
+  cursor: grab;
+}
+
+.floating-window-title {
+  font-weight: bold;
+  margin-bottom: 10px;
+  font-size: 20px;
+  text-align: center;
+}
+
+label + input[type="range"] {
+  display: block;
+  margin-bottom: 5px;
+}
+
+label + select {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.floating-window-option-body {
+  margin-bottom: 10px;
+}
+
+
